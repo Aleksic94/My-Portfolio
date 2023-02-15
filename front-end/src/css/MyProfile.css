@@ -1,0 +1,95 @@
+.my-profile_header{
+    width: 1248px;
+    margin: auto;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: row;
+}
+
+.myProfile-title{
+    font-family: 'Roboto SLab';
+    font-style: normal normal bold 36px/48px 'Roboto Slab';
+    font-size: 36px;
+    letter-spacing: 0px;
+    color: #96BB36;
+    opacity: 1;
+}
+
+.horizontal_line{
+    border-bottom: 0.5px solid #A5A5A5;
+    width: 82%;
+    margin-bottom: 35px;
+    margin-left: 10px;
+}
+
+.my-profile_content{
+    width: 1248px;
+    margin: auto;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+.section-1{
+    width: 175px;
+}
+
+.avatarImg{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: solid 1px grey;
+    box-shadow: 0px 3px 6px #00000029;
+    margin-left: 18px;
+    margin-bottom: 30px;
+}
+
+.upload-avatar_btn{
+    width: 174px;
+    height: 32px;
+    border: 1px solid #A5A5A5;
+    border-radius: 5px;
+    opacity: 1;
+    text-align: center;
+    font: normal normal normal 14px/19px 'Roboto';
+    font-size: 14px;
+    letter-spacing: 0px;
+    color: #A5A5A5;
+    text-transform: uppercase;
+}
+
+ .section-2{
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    gap: 30px;
+}
+
+ .first_column-inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.second_column-inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.save-btn{
+    width: 124px;
+    height: 40px;
+    margin-top: 40px;
+    background: #96BB36 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 5px;
+    border: 1px solid #96BB36;
+    text-align: center;
+    font: normal normal 900 16px/21px 'Roboto';
+    font-size: 16px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+}

@@ -1,0 +1,123 @@
+.wrapper{
+    width: 1248px;
+    margin: auto;
+    display:flex;
+    flex-direction: column;
+}
+
+.page-header{
+    width: 1248px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    /* gap: 10px; */
+    
+}
+
+.page-title{
+    font: normal normal bold 36px/48px 'Roboto Slab';
+    font-size: 36px;
+    letter-spacing: 0px;
+    color: #96BB36;
+    opacity: 1;
+}
+
+.horizontall_line{
+    border-bottom: 0.5px solid #A5A5A5;
+    width: 69%;
+    margin-bottom: 35px;
+    margin-left: 10px;
+}
+
+.container{
+    width: 1248px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 0.4fr 1fr;
+    gap: 120px;
+    margin-left: 30px;
+    margin-bottom: 70px;
+}
+
+.content-1{
+    display: flex;
+    flex-direction: column;
+}
+
+.span-title1{
+    font: normal normal bold 46px/60px 'Roboto Slab';
+    letter-spacing: 0px;
+    color: #F0972A;
+}
+
+.span-title2{
+    text-align: left;
+    font: normal normal bold 46px/60px 'Roboto Slab';
+    letter-spacing: 0px;
+    color: #626262;
+}
+
+.text{
+    text-align: left;
+    text-justify: inherit;
+    font: normal normal normal 20px/26px 'Roboto Slab';
+    letter-spacing: 0px;
+    color: #A5A5A5;
+    opacity: 1;
+}
+
+.content-2{
+    display: flex;
+    gap:30px;
+    margin-top: 30px;
+}
+
+.firstColumn-inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.secondColumn-inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.labels{
+    font: normal normal bold 16px/21px 'Roboto Slab';
+    font-size: 16px;
+    letter-spacing: 0px;
+    color: #F0972A;
+    opacity: 1;
+}
+
+.inputBox{
+    width: 294px;
+    height: 40px;
+    background: #F0EFEA 0% 0% no-repeat padding-box;
+    border: 1px solid #A5A5A5;
+    border-radius: 5px;
+    font: normal normal bold 14px/19px 'Roboto';
+    font-size: 14px;
+    padding-left: 10px;
+    letter-spacing: 0px;
+    color: #A5A5A5;
+    opacity: 1;
+}
+
+.create-btn{
+    width: 202px;
+    height: 40px;
+    margin-top: 15px;
+    background: #96BB36 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 5px;
+    border: solid 1px #96BB36;
+    font: normal normal 900 16px/21px 'Roboto';
+    font-size: 16px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+}

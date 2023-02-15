@@ -1,0 +1,105 @@
+.main{
+    margin-bottom: 85px;
+}
+
+.title-content{
+    width: 1248px;
+    margin: auto;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: row;
+}
+
+.title-MyRecipes{
+    font-style: normal normal bold 36px/48px 'Roboto Slab';
+    font-size: 36px;
+    letter-spacing: 0px;
+    color: #96BB36;
+    opacity: 1;
+}
+  
+.horizontal-line_recipes{
+    border-bottom: 0.5px solid #A5A5A5;
+    width: 75%;
+    margin-bottom: 35px;
+    margin-left: 10px;
+}
+
+.add-btn{
+    width: 41px;
+    height: 41px;
+    background-color: #F0972A;
+    border-radius: 50%;
+    border: solid 1px #F0972A;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.main-container{
+    width: 1248px;
+    height: auto;
+    margin: auto;
+}
+
+.header-row{
+    display: flex;
+    flex-direction: row;
+    gap: 130px;
+    padding-bottom: 15px;
+    font: normal normal bold 16px/21px 'Roboto';
+    font-size: 16px;
+    letter-spacing: 0px;
+    color: #F0972A;
+    opacity: 1;  
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    gap: 130px;
+    width: 1190px;
+    height: 70px;
+    background-color: white;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.cell{
+    text-align: center;
+    flex-basis: 100px;
+    padding-top: 22px;
+}
+
+.empty-cell{
+    width: 263px;
+}
+
+.recipe-title{
+    font: normal normal bold 16px/21px 'Roboto';
+    font-size: 16;
+    letter-spacing: 0px;
+    color: #A5A5A5;
+    opacity: 1;
+}
+
+.recipe-category{
+    width: 100px;
+    height: 29px;
+    background-color: #96BB36;
+    border-radius: 5px;
+    border: solid 1px #96BB36;
+    font: normal normal bold 12px/16px 'Roboto';
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.date{
+    font: normal normal normal 16px/21px 'Roboto';
+    letter-spacing: 0px;
+    color: #A5A5A5;
+    opacity: 1;
+}

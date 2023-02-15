@@ -1,0 +1,115 @@
+.title-container{
+    width: 1248px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+  }
+  
+.title{
+    font: normal normal bold 36px/48px 'Roboto Slab';
+    font-size: 36px;
+    letter-spacing: 0px;
+    color: #96BB36;
+    opacity: 1;
+  }
+  
+.login_line{
+    border-bottom: 0.5px solid #A5A5A5;
+    width: 82%;
+    margin-bottom: 36px;
+    margin-left: 10px;
+}
+
+.login-container{
+    margin: auto;
+    margin-bottom: 150px;
+    width: 1248px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: baseline;
+    gap: 40px;
+}
+
+.description-content{
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+}
+
+.welcome_1{
+    font: normal normal bold 46px/60px 'Roboto Slab';
+    font-size: 46px;
+    letter-spacing: 0px;
+    color: #F0972A;
+}
+
+.welcome_2{
+    font: normal normal bold 46px/60px 'Roboto Slab';
+    letter-spacing: 0px;
+    color: #626262;
+}
+
+.welcome-quote{
+    width: 610px;
+    text-align: left;
+    font: normal normal normal 20px/26px 'Roboto Slab';
+    letter-spacing: 0px;
+    color: #A5A5A5;
+    opacity: 1;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    gap: 5px;
+}
+
+.input-label{
+    font: normal normal bold 16px/21px 'Roboto Slab';
+    letter-spacing: 0px;
+    color: #F0972A;
+    opacity: 1;
+}
+
+.input-box{
+    width: 294px;
+    height: 30px;
+    background-color: #F0EFEA;
+    border: 1px solid #A5A5A5;
+    border-radius: 5px;
+    font: normal normal bold 14px/19px 'Roboto';
+    font-size: 14px;
+    padding-left: 10px;
+    letter-spacing: 0px;
+    color: #A5A5A5;
+    opacity: 1;
+    margin-bottom: 20px;
+}
+    
+.submit-btn{
+    width: 122px;
+    height: 40px;
+    background-color: #96BB36;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    border-radius: 5px;
+    border: 1px solid #A5A5A5;
+    text-align: center;
+    font: normal normal 900 16px/21px 'Roboto';
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+::placeholder{
+    text-align: left;
+    font: normal normal bold 14px/19px 'Roboto';
+    letter-spacing: 0px;
+    color: #A5A5A5;
+    opacity: 1;
+}
+
+  

@@ -1,0 +1,114 @@
+  .navbar-wrapper{
+    width: 1248px;
+    margin: auto;
+    margin-top: 52px;
+    margin-bottom: 70px;
+    display: grid;
+    grid-template-columns: 20% 45% 35%;
+  }
+
+  .home-section{
+    width: 177px;
+    height: 58px;
+  }
+
+  .categorys-section{
+    display:flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-top: 15px;
+  }
+
+  .categorys-btn{
+    font: normal normal bold 18px/24px 'Roboto';
+    font-size: 18px;
+    letter-spacing: 0px;
+    color: #A5A5A5;
+    text-transform: uppercase;
+    opacity: 1;
+  }
+  .categorys-btn:focus{
+    color: #F0972A;
+  }
+  
+  .dot {
+    height: 9px;
+    width: 9px;
+    background-color: #F0972A;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 5px;
+  }  
+
+.secured-section{
+  display: flex;
+  gap: 15px;
+  padding-top: 15px;
+}
+
+.login-btn {
+    width: 107px;
+    height: 44px;
+    color:#A5A5A5;
+    border: 1px solid #A5A5A5;
+    font: normal normal 900 16px/21px 'Roboto';
+    text-transform: uppercase;
+    opacity: 1;
+    text-align: center;
+    border-radius: 5px;
+  }
+
+
+.singup-btn{
+  width: 178px;
+  height: 44px;
+  color: #FFFFFF;
+  background-color: #96BB36;
+  border: 1px solid #A5A5A5;
+  font: normal normal 900 16px/21px 'Roboto';
+  text-transform: uppercase;
+  text-align: center;
+  border-radius: 5px;
+  }
+  
+.or{
+    font-size: 16px;
+    color: #F0972A;
+    font: normal normal 900 16px/21px 'Roboto';
+    opacity: 1;
+    padding-top: 7px;
+  }  
+
+.MyRecipes-navbar{
+    font: normal normal 900 18px/24px 'Roboto';
+    font-size: 18px;
+    letter-spacing: 0px;
+    color: #96BB36;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.MyProfile-navbar{
+    font: normal normal 900 18px/24px 'Roboto';
+    letter-spacing: 0px;
+    color: #F0972A;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.logout-navbar{
+    font: normal normal 900 18px/24px 'Roboto';
+    letter-spacing: 0px;
+    color: #B5B5B4;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.dot_1{
+    height: 9px;
+    width: 9px;
+    background-color: #626262;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 5px;
+}
